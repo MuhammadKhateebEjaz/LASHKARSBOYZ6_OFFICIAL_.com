@@ -1,14 +1,31 @@
 /* ==========================
    style.css — LASHKARS BOYZ6_OFFICIAL_
    ========================== */
-
-   .logo-img {
+.logo-img {
   width: 56px;
   height: 56px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 6px 18px rgba(0,0,0,0.3);
 }
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.brand-text .muted {
+  font-size: 13px;
+}
+
 
 
 

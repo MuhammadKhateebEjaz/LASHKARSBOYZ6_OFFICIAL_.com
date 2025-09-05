@@ -1,5 +1,35 @@
-:root{
+/* ==========================
+   style.css — LASHKARS BOYZ6_OFFICIAL_
+   ========================== */
 
+   .logo-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+
+
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --accent:#ff3860;
+  --muted: #9aa6bb;
+  --glass: rgba(255,255,255,0.04);
+  font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#071025 0%, #091428 60%);color:#e6eef8;}
+
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;position:sticky;top:0;background:linear-gradient(180deg, rgba(2,6,23,0.6), rgba(2,6,23,0.2));backdrop-filter: blur(6px);z-index:50}
+.brand{display:flex;gap:14px;align-items:center}
+.logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ff8aa3);display:flex;align-items:center;justify-content:center;font-weight:900;color:#081226;font-size:20px;box-shadow:0 6px 18px rgba(255,56,96,0.12)}
+.brand h1{margin:0;font-size:18px;letter-spacing:1px}
+nav{display:flex;gap:12px;align-items:center}
+nav a{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600}
+nav a:hover{color:white;background:var(--glass)}
 
 .hero{max-width:1100px;margin:32px auto;padding:36px;border-radius:16px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow:0 10px 40px rgba(2,6,23,0.6);display:grid;grid-template-columns:1fr 360px;gap:28px}
 .hero-left{padding:12px}
@@ -10,7 +40,6 @@
 .btn{background:var(--accent);color:#071226;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:800;box-shadow:0 8px 30px rgba(255,56,96,0.18)}
 .btn.secondary{background:transparent;color:#e6eef8;border:1px solid rgba(255,255,255,0.06)}
 
-
 .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px}
 .socials{display:flex;flex-direction:column;gap:12px}
 .social-link{display:flex;align-items:center;gap:12px;padding:10px;border-radius:10px;text-decoration:none;color:inherit;background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0.008));transition:transform .14s}
@@ -19,26 +48,22 @@
 .social-meta{font-weight:700}
 .muted{color:var(--muted);font-size:13px}
 
-
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
 .thumb{height:88px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:700}
 
-
 footer{max-width:1100px;margin:26px auto 60px;padding:18px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
-
 
 /* Responsive */
 @media(max-width:920px){
-.hero{grid-template-columns:1fr;}
-.gallery{grid-template-columns:repeat(2,1fr)}
-nav{display:none}
+  .hero{grid-template-columns:1fr;}
+  .gallery{grid-template-columns:repeat(2,1fr)}
+  nav{display:none}
 }
 @media(max-width:520px){
-.title{font-size:22px}
-.logo{width:46px;height:46px;font-size:18px}
-.gallery{grid-template-columns:1fr}
+  .title{font-size:22px}
+  .logo{width:46px;height:46px;font-size:18px}
+  .gallery{grid-template-columns:1fr}
 }
-
 
 /* small badge */
 .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:700}

@@ -1,31 +1,14 @@
 /* ==========================
    style.css — LASHKARS BOYZ6_OFFICIAL_
    ========================== */
-.logo-img {
+
+   .logo-img {
   width: 56px;
   height: 56px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 6px 18px rgba(0,0,0,0.3);
 }
-
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-.brand-text h1 {
-  margin: 0;
-  font-size: 18px;
-  letter-spacing: 1px;
-  font-weight: 700;
-}
-
-.brand-text .muted {
-  font-size: 13px;
-}
-
 
 
 
@@ -84,88 +67,3 @@ footer{max-width:1100px;margin:26px auto 60px;padding:18px;color:var(--muted);di
 
 /* small badge */
 .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:700}
-/* =============================
-   Base (Mobile First)
-   ============================= */
-body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
-/* Logo */
-.logo-img {
-  width: 60px;
-  height: auto;
-  margin-right: 10px;
-}
-
-/* Title */
-header h1 {
-  font-size: 20px;
-  font-weight: 900;
-  margin: 0;
-}
-
-header .muted {
-  font-size: 12px;
-  color: #aaa;
-}
-
-/* Nav */
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
-  margin: 12px 0;
-}
-
-nav a {
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-nav i {
-  font-size: 16px;
-}
-
-/* Hero */
-.hero .title {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.btn {
-  padding: 8px 14px;
-  font-size: 14px;
-  border-radius: 8px;
-}
-
-/* =============================
-   Tablet (≥ 768px)
-   ============================= */
-@media (min-width: 768px) {
-  .logo-img {
-    width: 75px;
-  }
-
-
-
-/* =============================
-   Desktop (≥ 1024px)
-   ============================= */
-@media (min-width: 1024px) {
-  .logo-img {
-    width: 90px;
-  }
-
-
-
-
-

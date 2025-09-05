@@ -1,0 +1,243 @@
+<!-- LASHKARSBOYZ6_OFFICIAL_
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LASHKARS BOYZ6_OFFICIAL_</title>
+  <meta name="description" content="Official page for LASHKARS BOYZ6_OFFICIAL_ — dialogues, clips & social media." />
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Nx4GzHkM5B6dYz1z7g1Vw3Jx4+6QJ0G6bqf5j6Y1M8z8e1y2p3qK7m0eN4b9c3h5Y1J2Kz3L7s4r5t6u7v8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#ff3860;
+      --muted: #9aa6bb;
+      --glass: rgba(255,255,255,0.04);
+      font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#071025 0%, #091428 60%);color:#e6eef8;}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;position:sticky;top:0;background:linear-gradient(180deg, rgba(2,6,23,0.6), rgba(2,6,23,0.2));backdrop-filter: blur(6px);z-index:50}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ff8aa3);display:flex;align-items:center;justify-content:center;font-weight:900;color:#081226;font-size:20px;box-shadow:0 6px 18px rgba(255,56,96,0.12)}
+    .brand h1{margin:0;font-size:18px;letter-spacing:1px}
+    nav{display:flex;gap:12px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600}
+    nav a:hover{color:white;background:var(--glass)}
+
+    .hero{max-width:1100px;margin:32px auto;padding:36px;border-radius:16px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow:0 10px 40px rgba(2,6,23,0.6);display:grid;grid-template-columns:1fr 360px;gap:28px}
+    .hero-left{padding:12px}
+    .eyebrow{color:var(--accent);font-weight:700;letter-spacing:1px}
+    .title{font-size:32px;margin:8px 0 12px}
+    .desc{color:var(--muted);line-height:1.5}
+    .cta-row{margin-top:18px;display:flex;gap:12px}
+    .btn{background:var(--accent);color:#071226;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:800;box-shadow:0 8px 30px rgba(255,56,96,0.18)}
+    .btn.secondary{background:transparent;color:#e6eef8;border:1px solid rgba(255,255,255,0.06)}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px}
+    .socials{display:flex;flex-direction:column;gap:12px}
+    .social-link{display:flex;align-items:center;gap:12px;padding:10px;border-radius:10px;text-decoration:none;color:inherit;background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0.008));transition:transform .14s}
+    .social-link:hover{transform:translateY(-4px)}
+    .social-link i{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.03);font-size:18px}
+    .social-meta{font-weight:700}
+    .muted{color:var(--muted);font-size:13px}
+
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .thumb{height:88px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:700}
+
+    footer{max-width:1100px;margin:26px auto 60px;padding:18px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+
+    /* Responsive */
+    @media(max-width:920px){
+      .hero{grid-template-columns:1fr;}
+      .gallery{grid-template-columns:repeat(2,1fr)}
+      nav{display:none}
+    }
+    @media(max-width:520px){
+      .title{font-size:22px}
+      .logo{width:46px;height:46px;font-size:18px}
+      .gallery{grid-template-columns:1fr}
+    }
+
+    /* small badge */
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:700}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">LB6</div>
+      <div>
+        <h1>LASHKARS BOYZ6_OFFICIAL_</h1>
+        <div class="muted">Dialogues • Clips • Behind the Scenes</div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#socials">Socials</a>
+      <a href="#clips">Clips</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <div class="eyebrow">OFFICIAL • CHANNEL</div>
+        <h2 class="title">LASHKARS BOYZ6 — Official Channel & Socials</h2>
+        <p class="desc">Welcome to the official hub for LASHKARS BOYZ6_OFFICIAL_. Find our latest dialogues, short clips, and all official social media channels in one place. Tap the links to follow and keep up with every release.</p>
+        <div class="cta-row">
+          <a class="btn" href="#socials">Follow Us</a>
+          <a class="btn secondary" href="#clips">Watch Clips</a>
+        </div>
+
+        <div class="card" style="margin-top:20px">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <div style="font-weight:800">New Drop</div>
+              <div class="muted">Short Dialogue — "Naam Toh Suna Hoga"</div>
+            </div>
+            <div class="badge">Trending</div>
+          </div>
+
+          <div class="gallery">
+            <div class="thumb">Clip 1</div>
+            <div class="thumb">Clip 2</div>
+            <div class="thumb">Clip 3</div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin:0 0 8px">All Social Media Channels</h3>
+          <p class="muted" style="margin:0 0 12px">Click an icon to go to the official channel. Replace the placeholder links with your real handles/URLs.</p>
+
+          <div id="socials" class="socials">
+            <a class="social-link" href="https://www.youtube.com/" target="_blank" rel="noopener">
+              <i class="fab fa-youtube"></i>
+              <div>
+                <div class="social-meta">YouTube</div>
+                <div class="muted">/LashkarsBoyz6_Official</div>
+              </div>
+            </a>
+
+            <a class="social-link" href="https://www.tiktok.com/" target="_blank" rel="noopener">
+              <i class="fab fa-tiktok"></i>
+              <div>
+                <div class="social-meta">TikTok</div>
+                <div class="muted">@lashkars_boyz6</div>
+              </div>
+            </a>
+
+            <a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+              <i class="fab fa-instagram"></i>
+              <div>
+                <div class="social-meta">Instagram</div>
+                <div class="muted">@lashkarsboyz6_official</div>
+              </div>
+            </a>
+
+            <a class="social-link" href="https://www.facebook.com/" target="_blank" rel="noopener">
+              <i class="fab fa-facebook"></i>
+              <div>
+                <div class="social-meta">Facebook</div>
+                <div class="muted">/LashkarsBoyz6</div>
+              </div>
+            </a>
+
+            <a class="social-link" href="https://open.spotify.com/" target="_blank" rel="noopener">
+              <i class="fab fa-spotify"></i>
+              <div>
+                <div class="social-meta">Spotify</div>
+                <div class="muted">Artist / Playlists</div>
+              </div>
+            </a>
+
+            <a class="social-link" href="mailto:contact@lashkarsboyz6.com">
+              <i class="fa fa-envelope"></i>
+              <div>
+                <div class="social-meta">Email</div>
+                <div class="muted">contact@lashkarsboyz6.com</div>
+              </div>
+            </a>
+
+          </div>
+
+          <div style="margin-top:12px;text-align:center;font-size:13px;color:var(--muted)">Want icons updated or links replaced? I can set them to your real URLs.</div>
+        </div>
+
+      </aside>
+    </section>
+
+    <section style="max-width:1100px;margin:20px auto;padding:18px">
+      <div class="card" id="clips">
+        <h3 style="margin-top:0">Featured Clips</h3>
+        <p class="muted">Embedded previews — replace src with your video links or embeds.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:12px">
+          <div class="card" style="padding:8px"> 
+            <div style="height:140px;border-radius:10px;background:#071427;display:flex;align-items:center;justify-content:center">YouTube Embed 1</div>
+            <div style="margin-top:8px;font-weight:700">Dialogue Clip A</div>
+            <div class="muted">1.2M views • 2d ago</div>
+          </div>
+
+          <div class="card" style="padding:8px"> 
+            <div style="height:140px;border-radius:10px;background:#071427;display:flex;align-items:center;justify-content:center">TikTok Embed</div>
+            <div style="margin-top:8px;font-weight:700">Short Cut</div>
+            <div class="muted">420K views • 5d ago</div>
+          </div>
+
+          <div class="card" style="padding:8px"> 
+            <div style="height:140px;border-radius:10px;background:#071427;display:flex;align-items:center;justify-content:center">Instagram Reel</div>
+            <div style="margin-top:8px;font-weight:700">Reel Highlight</div>
+            <div class="muted">98K views • 1w ago</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section style="max-width:1100px;margin:6px auto;padding:18px" id="contact">
+      <div class="card">
+        <h3 style="margin-top:0">Contact & Bookings</h3>
+        <p class="muted">Use the email or the handles above. Add your booking form or agent phone here.</p>
+        <form onsubmit="event.preventDefault();alert('Thanks — this is a demo form. Replace with your backend or an email service.');" style="display:flex;flex-direction:column;gap:12px;margin-top:12px">
+          <input placeholder="Your name" style="padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit" required>
+          <input placeholder="Your email or phone" style="padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit" required>
+          <textarea placeholder="Message" rows="4" style="padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit"></textarea>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> LASHKARS BOYZ6_OFFICIAL_</div>
+    <div class="muted">Built with ❤️ — Replace placeholders with real links</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        const t = document.querySelector(a.getAttribute('href'));
+        if(t) t.scrollIntoView({behavior:'smooth',block:'start'});
+      })
+    })
+  </script>
+</body>
+</html>
+

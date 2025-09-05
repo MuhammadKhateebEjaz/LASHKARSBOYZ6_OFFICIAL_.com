@@ -1,3 +1,4 @@
+
   const menuBtn = document.querySelector('.menu-toggle');
   const nav = document.querySelector('nav');
 
@@ -15,4 +16,3 @@
       menuBtn.innerHTML = '<i class="fas fa-bars"></i>';
     });
   });
-

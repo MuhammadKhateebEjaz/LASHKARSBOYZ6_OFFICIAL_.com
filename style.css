@@ -155,11 +155,10 @@ nav a:hover{
 }
 
 .thumb {
-  height: 180px; /* 👈 PERFECT SIZE */
+  height: 250px; /* پہلے 180px تھا */
   border-radius: 12px;
   overflow: hidden;
   background: #071427;
-  transition: 0.3s;
 }
 
 .thumb iframe {

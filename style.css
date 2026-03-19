@@ -155,7 +155,8 @@ nav a:hover{
 }
 
 .thumb {
-  height: 250px; /* پہلے 180px تھا */
+  width: 100%;
+  aspect-ratio: 16 / 9; /* ویڈیو کا ریشو برقرار رکھتا ہے */
   border-radius: 12px;
   overflow: hidden;
   background: #071427;

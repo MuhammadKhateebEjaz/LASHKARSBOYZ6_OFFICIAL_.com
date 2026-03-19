@@ -150,8 +150,8 @@ nav a:hover{
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  margin-top: 18px;
+  gap: 7px;
+  margin-top: 12px;
 }
 
 .thumb {

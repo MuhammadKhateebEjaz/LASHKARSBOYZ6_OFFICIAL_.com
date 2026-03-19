@@ -150,20 +150,20 @@ nav a:hover{
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 7px;
-  margin-top: 12px;
+  gap: 5px;
+  margin-top:9px;
 }
 
 .thumb {
-  height: 250px; /* پہلے 180px تھا */
-  border-radius: 12px;
+  height: 230px; /* پہلے 180px تھا */
+  border-radius: 10px;
   overflow: hidden;
   background: #071427;
 }
 
 .thumb iframe {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 95%;
   border: none;
 }
 
